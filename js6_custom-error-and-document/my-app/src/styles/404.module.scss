@@ -1,0 +1,42 @@
+.error {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  &__image {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__desc {
+    font-size: 18px;
+    color: #cbd5f5;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  &__button:hover {
+    background-color: #2563eb;
+  }
+}
